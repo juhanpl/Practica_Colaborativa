@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/css/styles.css">
@@ -7,6 +8,7 @@
     <title>Blog</title>
     <link rel="icon" href="/assets/blog_icon.ico" type="image/ico">
 </head>
+
 <body>
     <header>
         <nav>
@@ -18,5 +20,68 @@
             </ul>
         </nav>
     </header>
+
+    <main>
+        <!-- JavaScript Section -->
+        <section id="javascript">
+            <h2>JavaScript</h2>
+            <p>
+                JavaScript es un lenguaje de programación interpretado que permite crear interactividad en páginas web.
+                Es ampliamente utilizado en el desarrollo frontend, aunque también se emplea en el backend con entornos
+                como Node.js.
+            </p>
+            <p>
+                Es uno de los tres pilares fundamentales del desarrollo web junto con HTML y CSS.
+                Permite validar formularios, crear animaciones, actualizar contenido dinámicamente sin recargar la
+                página (AJAX),
+                y más.
+            </p>
+            <h3>Características clave:</h3>
+            <ul>
+                <li>Lenguaje interpretado del lado del cliente</li>
+                <li>Basado en eventos y orientado a objetos</li>
+                <li>Funciona en todos los navegadores modernos</li>
+                <li>Soporte para programación asincrónica con <code>async</code> / <code>await</code></li>
+            </ul>
+
+            <h3>Ejemplo interactivo</h3>
+            <p>Haz clic en el botón para cambiar el contenido de este mensaje:</p>
+            <button onclick="document.getElementById('demo-js').innerText = '¡Hola desde JavaScript!'">Haz clic
+                aquí</button>
+            <p id="demo-js">Este texto cambiará cuando hagas clic en el botón.</p>
+        </section>
+
+        <!-- PHP Section -->
+        <section id="php">
+            <h2>PHP</h2>
+            <p>
+                PHP (Hypertext Preprocessor) es un lenguaje de programación del lado del servidor, diseñado para el
+                desarrollo web.
+                Es ampliamente utilizado para crear sitios web dinámicos y aplicaciones que interactúan con bases de
+                datos.
+            </p>
+            <p>
+                Fue uno de los primeros lenguajes del lado del servidor que se podían incrustar directamente en HTML.
+                Hoy en día sigue siendo una tecnología clave en plataformas como WordPress, Joomla, Drupal, Laravel,
+                entre otras.
+            </p>
+
+            <h3>Características clave:</h3>
+            <ul>
+                <li>Lenguaje de servidor embebido en HTML</li>
+                <li>Compatible con múltiples bases de datos (MySQL, PostgreSQL, SQLite...)</li>
+                <li>Gran comunidad y abundante documentación</li>
+                <li>Ideal para proyectos CMS y eCommerce</li>
+            </ul>
+
+            <h3>Ejemplo de código PHP</h3>
+            <pre><code>&lt;?php
+            $nombre = "Mundo";
+            echo "¡Hola, " . $nombre . "!";
+            ?&gt;</code></pre>
+        </section>
+    </main>
+
 </body>
+
 </html>
