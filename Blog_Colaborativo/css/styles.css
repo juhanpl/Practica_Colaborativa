@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 a {
     color: white;
     text-decoration: none;
@@ -16,7 +20,6 @@ body {
 }
 
 header {
-    position: fixed;
     width: 100%;
     height: 100px;
     background-color: #323232;
@@ -24,10 +27,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 200px;
 }
 
 header > nav {
+    
     width: 380px;
     display: flex;
     gap: 30px;
@@ -36,7 +39,7 @@ header > nav {
 }
 
 main {
-    padding-top: 160px;
+    padding-top: 60px;
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
 }
